@@ -22,9 +22,9 @@ simple and lightweight visibility observer for **vue 3**, built on top of `inter
 ### 📦 installation
 
 ```bash
-pnpm add vue-visibility-observer
-# or
 npm install vue-visibility-observer
+# or
+pnpm add vue-visibility-observer
 ```
 
 ### 🔌 plugin setup
