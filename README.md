@@ -98,7 +98,7 @@ Composable used to observe when elements enter or leave the viewport.
 const { observe, unobserve } = useIntersectionObserver();
 ```
 
-&nbsp;
+---
 
 #### `observe()`
 
@@ -120,7 +120,7 @@ Start observing an element.
 | threshold | number or array | Intersection threshold           | true     | `0`     |
 | once      | boolean         | Trigger only the first time      | true     | `true`  |
 
-&nbsp;
+---
 
 #### `unobserve()`
 
