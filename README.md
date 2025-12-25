@@ -27,16 +27,20 @@ Simple and lightweight visibility observer for **vue 3**, built on top of `Inter
 
 ### 📦 Installation
 
-With npm
-
 ```bash
 npm install vue-use-intersection-observer
 ```
 
-With pnpm
+or
 
 ```bash
 pnpm add vue-use-intersection-observer
+```
+
+or
+
+```bash
+yarn add vue-use-intersection-observer
 ```
 
 ### 🔌 Plugin setup
