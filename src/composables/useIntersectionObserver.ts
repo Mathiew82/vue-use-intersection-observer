@@ -10,11 +10,9 @@ interface ObserveParams extends VisibilityOptions {
   callback: VisibilityCallback;
 }
 
-export function useIntersectionObserver(
-  globalOptions?: Omit<VisibilityOptions, 'once'>
-) {
+export function useIntersectionObserver() {
   const injectedObserver = inject(VisibilityObserverKey, null);
-  const observer = injectedObserver ?? new VisibilityObserver(globalOptions);
+  const observer = injectedObserver ?? new VisibilityObserver();
 
   const observe = (
     elementRef: Ref<HTMLElement | null>,
