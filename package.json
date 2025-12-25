@@ -6,6 +6,11 @@
   "main": "./dist/vue-use-intersection-observer.umd.js",
   "module": "./dist/vue-use-intersection-observer.es.js",
   "types": "./dist/index.d.ts",
+  "author": {
+    "name": "Alberto Mateo Alcalá",
+    "url": "https://amateo82.es"
+  },
+  "license": "MIT",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
