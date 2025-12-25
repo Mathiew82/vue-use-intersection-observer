@@ -1,8 +1,8 @@
-<p align="center">
+<div align="center">
   <img src="./logo.png" alt="vue-use-intersection-observer logo" width="500" />
-</p>
+</div>
 
-<p align="center">
+<div align="center">
 
 ![npm](https://img.shields.io/npm/v/vue-use-intersection-observer)
 ![npm downloads](https://img.shields.io/npm/dw/vue-use-intersection-observer)
@@ -10,7 +10,7 @@
 ![GitHub stars](https://img.shields.io/github/stars/Mathiew82/vue-use-intersection-observer)
 ![GitHub forks](https://img.shields.io/github/forks/Mathiew82/vue-use-intersection-observer)
 
-</p>
+</div>
 
 simple and lightweight visibility observer for **vue 3**, built on top of `IntersectionObserver`.
 
