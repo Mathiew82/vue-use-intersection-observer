@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./logo.png" alt="vue-use-intersection-observer logo" width="500" />
+  <img src="./logo.png" alt="vue-use-intersection-observer logo" width="300" />
 </div>
 
 <div align="center">
