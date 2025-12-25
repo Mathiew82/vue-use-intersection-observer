@@ -8,7 +8,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src/index.ts'),
       name: 'VueVisibilityObserver',
-      fileName: (format) => `vue-visibility-observer.${format}.js`,
+      fileName: (format) => `vue-use-intersection-observer.${format}.js`,
     },
     rollupOptions: {
       external: ['vue'],
