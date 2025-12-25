@@ -16,12 +16,12 @@ Simple and lightweight visibility observer for **vue 3**, built on top of `Inter
 
 ## ✨ Features
 
-- vue 3 plugin
-- composable API
-- uses native `IntersectionObserver`
-- supports offsets and reactivity
-- one global observer (better performance)
-- fully written in typescript
+- Vue 3 plugin
+- Composable API
+- Uses native `IntersectionObserver`
+- Supports offsets and reactivity
+- One global observer (better performance)
+- Fully written in typescript
 
 ## 🚀 How to use
 
