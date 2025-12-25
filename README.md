@@ -34,11 +34,9 @@ import { createapp } from 'vue';
 import app from './app.vue';
 import { visibilityplugin } from 'vue-use-intersection-observer';
 
-createapp(app)
-  .use(visibilityplugin, {
-    offset: 100,
-  })
-  .mount('#app');
+const app = createApp(App);
+app.use(VisibilityPlugin);
+app.mount('#app');
 ```
 
 ### 🧩 Usage (example)

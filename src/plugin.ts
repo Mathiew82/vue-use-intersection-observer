@@ -14,8 +14,8 @@ export interface VisibilityPluginOptions extends Omit<
 > {}
 
 export const VisibilityPlugin: Plugin = {
-  install(app: App, options?: VisibilityPluginOptions) {
-    const observer = new VisibilityObserver(options);
+  install(app: App) {
+    const observer = new VisibilityObserver();
     app.provide(VisibilityObserverKey, observer);
     app.directive('visible', vVisible);
   },
