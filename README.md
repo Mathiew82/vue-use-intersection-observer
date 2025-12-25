@@ -86,19 +86,17 @@ onmounted(() => {
 
 ### 🛠 API
 
-**Composable**
+#### `useIntersectionObserver()`
 
-```bash
-useIntersectionObserver()
+Composable used to observe when elements enter or leave the viewport.
+
+```ts
+const { observe, unobserve } = useIntersectionObserver();
 ```
 
-Returns the observer utilities.
+&nbsp;
 
-**Methods**
-
-```bash
-observe(target, options)
-```
+#### `observe()`
 
 Start observing an element.
 
@@ -117,3 +115,13 @@ Start observing an element.
 | offset    | number          | Trigger before entering viewport | true     | `0`     |
 | threshold | number or array | Intersection threshold           | true     | `0`     |
 | once      | boolean         | Trigger only the first time      | true     | `true`  |
+
+&nbsp;
+
+#### `unObserve()`
+
+Stop observing a previously registered element.
+
+| Name   | Type | Description                   |
+| ------ | ---- | ----------------------------- |
+| target | ref  | Element ref to stop observing |
