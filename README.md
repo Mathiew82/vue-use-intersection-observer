@@ -3,6 +3,8 @@
 ![npm](https://img.shields.io/npm/v/vue-use-intersection-observer)
 ![npm downloads](https://img.shields.io/npm/dw/vue-use-intersection-observer)
 ![license](https://img.shields.io/npm/l/vue-use-intersection-observer)
+![GitHub stars](https://img.shields.io/github/stars/Mathiew82/broom-console)
+![GitHub forks](https://img.shields.io/github/forks/Mathiew82/broom-console)
 ![GitHub stars](https://img.shields.io/github/stars/Mathiew82/vue-use-intersection-observer)
 ![GitHub forks](https://img.shields.io/github/forks/Mathiew82/vue-use-intersection-observer)
 
