@@ -1,18 +1,18 @@
-# vue-visibility-observer
+# vue-use-intersection-observer
 
-![npm](https://img.shields.io/npm/v/vue-visibility-observer)
-![npm downloads](https://img.shields.io/npm/dw/vue-visibility-observer)
-![license](https://img.shields.io/npm/l/vue-visibility-observer)
-![stars](https://img.shields.io/github/stars/your-username/vue-visibility-observer?style=social)
-![forks](https://img.shields.io/github/forks/your-username/vue-visibility-observer?style=social)
+![npm](https://img.shields.io/npm/v/vue-use-intersection-observer)
+![npm downloads](https://img.shields.io/npm/dw/vue-use-intersection-observer)
+![license](https://img.shields.io/npm/l/vue-use-intersection-observer)
+![stars](https://img.shields.io/github/stars/your-username/vue-use-intersection-observer?style=social)
+![forks](https://img.shields.io/github/forks/your-username/vue-use-intersection-observer?style=social)
 
-simple and lightweight visibility observer for **vue 3**, built on top of `intersectionobserver`.
+simple and lightweight visibility observer for **vue 3**, built on top of `IntersectionObserver`.
 
 ## ✨ features
 
 - vue 3 plugin
-- composable api
-- uses native `intersectionobserver`
+- composable API
+- uses native `IntersectionObserver`
 - supports offsets and reactivity
 - one global observer (better performance)
 - fully written in typescript
@@ -22,9 +22,9 @@ simple and lightweight visibility observer for **vue 3**, built on top of `inter
 ### 📦 installation
 
 ```bash
-npm install vue-visibility-observer
+npm install vue-use-intersection-observer
 # or
-pnpm add vue-visibility-observer
+pnpm add vue-use-intersection-observer
 ```
 
 ### 🔌 plugin setup
@@ -32,7 +32,7 @@ pnpm add vue-visibility-observer
 ```typescript
 import { createapp } from 'vue';
 import app from './app.vue';
-import { visibilityplugin } from 'vue-visibility-observer';
+import { visibilityplugin } from 'vue-use-intersection-observer';
 
 createapp(app)
   .use(visibilityplugin, {
@@ -46,12 +46,12 @@ createapp(app)
 ```vue
 <script setup lang="ts">
 import { ref, onmounted } from 'vue';
-import { usevisibilityobserver } from 'vue-visibility-observer';
+import { useIntersectionObserver } from 'vue-use-intersection-observer';
 
 const target = ref<htmlelement | null>(null);
 const isvisible = ref(false);
 
-const { observe } = usevisibilityobserver();
+const { observe } = useIntersectionObserver();
 
 onmounted(() => {
   observe(target, {
@@ -89,7 +89,7 @@ onmounted(() => {
 **Composable**
 
 ```bash
-useVisibilityObserver()
+useIntersectionObserver()
 ```
 
 Returns the observer utilities.
