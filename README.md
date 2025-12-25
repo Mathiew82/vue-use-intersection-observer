@@ -3,8 +3,8 @@
 ![npm](https://img.shields.io/npm/v/vue-use-intersection-observer)
 ![npm downloads](https://img.shields.io/npm/dw/vue-use-intersection-observer)
 ![license](https://img.shields.io/npm/l/vue-use-intersection-observer)
-![stars](https://img.shields.io/github/stars/your-username/vue-use-intersection-observer?style=social)
-![forks](https://img.shields.io/github/forks/your-username/vue-use-intersection-observer?style=social)
+![gitHub](https://img.shields.io/github/stars/Mathiew82/vue-use-intersection-observer)
+![gitHub](https://img.shields.io/github/forks/Mathiew82/vue-use-intersection-observer)
 
 simple and lightweight visibility observer for **vue 3**, built on top of `IntersectionObserver`.
 
