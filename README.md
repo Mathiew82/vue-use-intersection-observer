@@ -116,7 +116,7 @@ Start observing an element.
 
 &nbsp;
 
-#### `unObserve()`
+#### `unobserve()`
 
 Stop observing a previously registered element.
 
