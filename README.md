@@ -25,13 +25,13 @@ Simple and lightweight visibility observer for **vue 3**, built on top of `Inter
 
 &nbsp;
 
-## 🚀 How to use
-
-### 📦 Installation
+## 📦 Installation
 
 ```bash
 npm i vue-use-intersection-observer
 ```
+
+## 🚀 How to use
 
 ### 🔌 Plugin setup
 
