@@ -1,3 +1,3 @@
 export { VisibilityPlugin } from './plugin';
-export { useVisibilityObserver } from './composables/useVisibilityObserver';
+export { useIntersectionObserver } from './composables/useIntersectionObserver';
 export type { VisibilityOptions } from './core/visibilityObserver';
