@@ -12,7 +12,7 @@
 
 </div>
 
-simple and lightweight visibility observer for **vue 3**, built on top of `IntersectionObserver`.
+Simple and lightweight visibility observer for **vue 3**, built on top of `IntersectionObserver`.
 
 ## ✨ Features
 
