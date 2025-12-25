@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="./logo.png" alt="vue-use-intersection-observer logo" width="400" />
+  <img src="./logo.png" alt="vue-use-intersection-observer logo" width="500" />
 </p>
-
-&nbsp;
 
 # vue-use-intersection-observer
 
