@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="./logo.png" alt="vue-use-intersection-observer logo" width="400" />
+</p>
+
+&nbsp;
+
 # vue-use-intersection-observer
 
 ![npm](https://img.shields.io/npm/v/vue-use-intersection-observer)
