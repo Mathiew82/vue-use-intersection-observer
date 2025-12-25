@@ -1,16 +1,16 @@
 {
-  "name": "vue-visibility-observer",
+  "name": "vue-use-intersection-observer",
   "version": "0.1.0",
-  "description": "Simple visibility observer plugin for Vue 3 using IntersectionObserver",
+  "description": "Simple visibility observer plugin for Vue 3 using IntersectionObserver.",
   "type": "module",
-  "main": "./dist/vue-visibility-observer.umd.js",
-  "module": "./dist/vue-visibility-observer.es.js",
+  "main": "./dist/vue-use-intersection-observer.umd.js",
+  "module": "./dist/vue-use-intersection-observer.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
-      "import": "./dist/vue-visibility-observer.es.js",
-      "require": "./dist/vue-visibility-observer.umd.js"
+      "import": "./dist/vue-use-intersection-observer.es.js",
+      "require": "./dist/vue-use-intersection-observer.umd.js"
     }
   },
   "files": [
