@@ -8,7 +8,7 @@
 
 simple and lightweight visibility observer for **vue 3**, built on top of `IntersectionObserver`.
 
-## ✨ features
+## ✨ Features
 
 - vue 3 plugin
 - composable API
@@ -17,9 +17,9 @@ simple and lightweight visibility observer for **vue 3**, built on top of `Inter
 - one global observer (better performance)
 - fully written in typescript
 
-## 🚀 how to use
+## 🚀 How to use
 
-### 📦 installation
+### 📦 Installation
 
 ```bash
 npm install vue-use-intersection-observer
@@ -27,7 +27,7 @@ npm install vue-use-intersection-observer
 pnpm add vue-use-intersection-observer
 ```
 
-### 🔌 plugin setup
+### 🔌 Plugin setup
 
 ```typescript
 import { createapp } from 'vue';
@@ -41,7 +41,7 @@ createapp(app)
   .mount('#app');
 ```
 
-### 🧩 usage (composable)
+### 🧩 Usage (example)
 
 ```vue
 <script setup lang="ts">
