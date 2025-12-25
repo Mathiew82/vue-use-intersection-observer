@@ -23,12 +23,14 @@ Simple and lightweight visibility observer for **vue 3**, built on top of `Inter
 - One global observer (better performance)
 - Fully written in typescript
 
+&nbsp;
+
 ## 🚀 How to use
 
 ### 📦 Installation
 
 ```bash
-npm i vue-use-intersection-observer
+npm install vue-use-intersection-observer
 ```
 
 or
