@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.8
+
+- Improve usage example and update README badges
+
 ## 1.0.7
 
 - Improve logo layout in documentation
