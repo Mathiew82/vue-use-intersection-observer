@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.4
+
+- Fix published package missing latest build changes
+
 ## 1.0.3
 
 - Fix callback being triggered before the element becomes visible
