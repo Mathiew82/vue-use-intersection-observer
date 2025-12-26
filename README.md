@@ -35,9 +35,9 @@ npm i vue-use-intersection-observer
 
 ## 🧠 How it works
 
-## 🚀 How to use
+![How it works](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/how-it-works.png)
 
-![How to use](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/how-to-use.png)
+## 🚀 How to use
 
 ### 🔌 Plugin setup
 
