@@ -122,19 +122,19 @@ Start observing an element.
 
 **Parameters:**
 
-| Name    | Type    | Description            |
-| ------- | ------- | ---------------------- |
-| target  | ref     | Element ref to observe |
-| options | Options | Observer configuration |
+| Name    | Type    | Description            | Required | Default |
+| ------- | ------- | ---------------------- | -------- | ------- |
+| target  | ref     | Element ref to observe | true     | —       |
+| options | Options | Observer configuration | true     | —       |
 
 **Options:**
 
-| Option    | Type            | Description                      | Optional | Default |
+| Name      | Type            | Description                      | Required | Default |
 | --------- | --------------- | -------------------------------- | -------- | ------- |
-| callback  | function        | Called when visibility changes   | false    | —       |
-| offset    | number          | Trigger before entering viewport | true     | `0`     |
-| threshold | number or array | Intersection threshold           | true     | `0`     |
-| once      | boolean         | Trigger only the first time      | true     | `true`  |
+| callback  | function        | Called when visibility changes   | true     | —       |
+| offset    | number          | Trigger before entering viewport | false    | 0       |
+| threshold | number or array | Intersection threshold           | false    | 0       |
+| once      | boolean         | Trigger only the first time      | false    | true    |
 
 ---
 
@@ -142,6 +142,6 @@ Start observing an element.
 
 Stop observing a previously registered element.
 
-| Name   | Type | Description                   |
-| ------ | ---- | ----------------------------- |
-| target | ref  | Element ref to stop observing |
+| Name   | Type | Description                   | Required | Default |
+| ------ | ---- | ----------------------------- | -------- | ------- |
+| target | ref  | Element ref to stop observing | true     | —       |
