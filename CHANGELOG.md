@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.5
+
+- Add demo GIF to documentation
+
 ## 1.0.4
 
 - Fix published package missing latest build changes
