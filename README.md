@@ -1,6 +1,8 @@
 <div align="center">
-  <img src="https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/logo.png" alt="vue-use-intersection-observer logo" width="300" />
+  <img src="https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/logo.png" alt="vue-use-intersection-observer logo" width="200" />
 </div>
+
+&nbsp;
 
 <div align="center">
 
