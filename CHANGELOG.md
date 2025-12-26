@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.1
+
+- Improve package metadata (keywords and documentation)
+
 ## 1.0.0
 
 - Initial stable release
