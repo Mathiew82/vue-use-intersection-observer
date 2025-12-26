@@ -140,11 +140,15 @@ Stop observing a previously registered element.
 | ------ | ---- | ----------------------------- | -------- | ------- |
 | target | ref  | Element ref to stop observing | true     | —       |
 
+&nbsp;
+
 ## ▶️ Demo
 
 ![Demo](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/demo.gif)
 
 ![Demo](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/demo2.gif)
+
+&nbsp;
 
 ## 🧠 How it works
 
