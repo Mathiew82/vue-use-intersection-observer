@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./logo.png" alt="vue-use-intersection-observer logo" width="300" />
+  <img src="https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/logo.png" alt="vue-use-intersection-observer logo" width="300" />
 </div>
 
 <div align="center">
@@ -99,7 +99,7 @@ onBeforeUnmount(() => {
 
 ### ▶️ Demo
 
-![Demo](./demo.gif)
+![Demo](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/demo.gif)
 
 ### 🛠 API
 
