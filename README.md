@@ -33,6 +33,8 @@ Simple and lightweight visibility observer for **vue 3**, built on top of `Inter
 npm i vue-use-intersection-observer
 ```
 
+&nbsp;
+
 ## 🚀 How to use
 
 ### 🔌 Plugin setup
