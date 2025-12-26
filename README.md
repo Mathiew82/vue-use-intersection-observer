@@ -74,8 +74,8 @@ In a component
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onBeforeUnmount } from "vue";
-import { useIntersectionObserver } from "vue-use-intersection-observer";
+import { ref, onMounted, onBeforeUnmount } from 'vue';
+import { useIntersectionObserver } from 'vue-use-intersection-observer';
 
 const target = ref<HTMLElement | null>(null);
 const isvisible = ref(false);
@@ -94,8 +94,6 @@ onMounted(() => {
 onBeforeUnmount(() => {
   unobserve(target);
 });
-</script>
-
 </script>
 ```
 
