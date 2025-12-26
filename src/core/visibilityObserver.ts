@@ -52,9 +52,11 @@ export class VisibilityObserver {
             if (!data) continue;
 
             const isVisible = entry.isIntersecting;
+            if (!isVisible) continue;
+
             data.callback(isVisible, entry);
 
-            if (isVisible && data.once) {
+            if (data.once) {
               this.unobserve(entry.target);
             }
           }
