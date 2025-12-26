@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.10
+
+- Add visual explanation of how the plugin works
+
 ## 1.0.9
 
 - Clarify required parameters and options in API documentation
