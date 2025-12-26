@@ -101,7 +101,7 @@ onBeforeUnmount(() => {
 
 ### ▶️ Demo
 
-<video src="./demo-video.mp4" controls autoplay muted loop></video>
+![Demo](./demo.gif)
 
 ### 🛠 API
 
