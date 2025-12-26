@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.9
+
+- Clarify required parameters and options in API documentation
+
 ## 1.0.8
 
 - Improve usage example and update README badges
