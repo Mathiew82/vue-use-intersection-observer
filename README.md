@@ -101,7 +101,7 @@ onBeforeUnmount(() => {
 
 ### ▶️ Demo
 
-[▶ Watch demo video](./demo-video.mp4)
+<video src="./demo-video.mp4" controls autoplay muted loop></video>
 
 ### 🛠 API
 
