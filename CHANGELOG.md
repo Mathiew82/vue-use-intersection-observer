@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.3
+
+- Fix callback being triggered before the element becomes visible
+
 ## 1.0.2
 
 - Add explicit return types to public methods
