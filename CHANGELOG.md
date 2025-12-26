@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.7
+
+- Improve logo layout in documentation
+
 ## 1.0.6
 
 - Update logo and demo images
