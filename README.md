@@ -35,10 +35,13 @@ npm i vue-use-intersection-observer
 
 ### 🔌 Plugin setup
 
+main.ts
+
 ```typescript
-import { createapp } from 'vue';
-import app from './app.vue';
-import { visibilityplugin } from 'vue-use-intersection-observer';
+import { createApp } from 'vue';
+import './style.css';
+import App from './App.vue';
+import { VisibilityPlugin } from 'vue-use-intersection-observer';
 
 const app = createApp(App);
 app.use(VisibilityPlugin);
@@ -47,26 +50,9 @@ app.mount('#app');
 
 ### 🧩 Usage (example)
 
+In a component
+
 ```vue
-<script setup lang="ts">
-import { ref, onmounted } from 'vue';
-import { useIntersectionObserver } from 'vue-use-intersection-observer';
-
-const target = ref<htmlelement | null>(null);
-const isvisible = ref(false);
-
-const { observe } = useIntersectionObserver();
-
-onmounted(() => {
-  observe(target, {
-    once: false,
-    callback: (visible) => {
-      isvisible.value = visible;
-    },
-  });
-});
-</script>
-
 <template>
   <div
     :style="{
@@ -75,17 +61,36 @@ onmounted(() => {
       right: '20px',
       width: '40px',
       height: '40px',
-      borderradius: '50%',
-      backgroundcolor: isvisible ? 'green' : 'red',
+      borderRadius: '50%',
+      backgroundColor: isvisible ? 'green' : 'red',
     }"
   />
 
   <div style="height: 150vh"></div>
 
-  <div ref="target" style="height: 200px; background: lightgray">
-    observed element
+  <div ref="target" style="width: 200px; height: 200px; background: gray">
+    Observed Element
   </div>
 </template>
+
+<script setup lang="ts">
+import { ref, onMounted } from 'vue';
+import { useIntersectionObserver } from 'vue-use-intersection-observer';
+
+const target = ref<HTMLElement | null>(null);
+const isvisible = ref(false);
+
+const { observe } = useIntersectionObserver();
+
+onMounted(() => {
+  observe(target, {
+    once: false,
+    callback: (visible) => {
+      isvisible.value = visible;
+    },
+  });
+});
+</script>
 ```
 
 ### 🛠 API
