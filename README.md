@@ -78,7 +78,7 @@ import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { useIntersectionObserver } from 'vue-use-intersection-observer';
 
 const target = ref<HTMLElement | null>(null);
-const isvisible = ref(false);
+const isvisible = ref<boolean>(false);
 
 const { observe, unobserve } = useIntersectionObserver();
 

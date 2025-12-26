@@ -17,12 +17,12 @@ export function useIntersectionObserver() {
   const observe = (
     elementRef: Ref<HTMLElement | null>,
     options: ObserveParams
-  ) => {
+  ): void => {
     if (!elementRef.value) return;
     observer.observe(elementRef.value, options.callback, options);
   };
 
-  const unobserve = (elementRef: Ref<HTMLElement | null>) => {
+  const unobserve = (elementRef: Ref<HTMLElement | null>): void => {
     if (!elementRef.value) return;
     observer.unobserve(elementRef.value);
   };

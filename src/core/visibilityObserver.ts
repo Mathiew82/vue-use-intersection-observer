@@ -75,7 +75,7 @@ export class VisibilityObserver {
     element: Element,
     callback: VisibilityCallback,
     options: VisibilityOptions = {}
-  ) {
+  ): void {
     const offset = options.offset ?? 0;
     const threshold = options.threshold ?? 0;
     const bucket = this.getBucket(offset, threshold);
@@ -88,7 +88,7 @@ export class VisibilityObserver {
     bucket.observer.observe(element);
   }
 
-  unobserve(element: Element) {
+  unobserve(element: Element): void {
     for (const [key, bucket] of this.buckets) {
       if (!bucket.elements.has(element)) continue;
 
@@ -104,7 +104,7 @@ export class VisibilityObserver {
     }
   }
 
-  disconnect() {
+  disconnect(): void {
     for (const [, bucket] of this.buckets) {
       bucket.elements.clear();
       bucket.observer.disconnect();
