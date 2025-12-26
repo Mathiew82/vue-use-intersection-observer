@@ -33,10 +33,6 @@ Simple and lightweight visibility observer for **vue 3**, built on top of `Inter
 npm i vue-use-intersection-observer
 ```
 
-## 🧠 How it works
-
-![How it works](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/how-it-works.png)
-
 ## 🚀 How to use
 
 ### 🔌 Plugin setup
@@ -102,12 +98,6 @@ onBeforeUnmount(() => {
 </script>
 ```
 
-### ▶️ Demo
-
-![Demo](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/demo.gif)
-
-![Demo](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/demo2.gif)
-
 ### 🛠 API
 
 #### `useIntersectionObserver()`
@@ -149,3 +139,13 @@ Stop observing a previously registered element.
 | Name   | Type | Description                   | Required | Default |
 | ------ | ---- | ----------------------------- | -------- | ------- |
 | target | ref  | Element ref to stop observing | true     | —       |
+
+## ▶️ Demo
+
+![Demo](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/demo.gif)
+
+![Demo](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/demo2.gif)
+
+## 🧠 How it works
+
+![How it works](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/how-it-works.png)
