@@ -66,7 +66,7 @@ In a component
     }"
   />
 
-  <div style="height: 150vh"></div>
+  <div style="height: 150vh" />
 
   <div ref="target" style="width: 200px; height: 200px; background: gray">
     Observed Element
@@ -74,8 +74,8 @@ In a component
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted, onBeforeUnmount } from 'vue';
-import { useIntersectionObserver } from 'vue-use-intersection-observer';
+import { ref, onMounted, onBeforeUnmount } from "vue";
+import { useIntersectionObserver } from "vue-use-intersection-observer";
 
 const target = ref<HTMLElement | null>(null);
 const isvisible = ref(false);
@@ -95,7 +95,13 @@ onBeforeUnmount(() => {
   unobserve(target);
 });
 </script>
+
+</script>
 ```
+
+### ▶️ Demo
+
+[▶ Watch demo video](./demo-video.mp4)
 
 ### 🛠 API
 
