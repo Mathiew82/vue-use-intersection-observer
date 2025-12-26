@@ -74,13 +74,13 @@ In a component
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, onBeforeUnmount } from 'vue';
 import { useIntersectionObserver } from 'vue-use-intersection-observer';
 
 const target = ref<HTMLElement | null>(null);
 const isvisible = ref(false);
 
-const { observe } = useIntersectionObserver();
+const { observe, unobserve } = useIntersectionObserver();
 
 onMounted(() => {
   observe(target, {
@@ -89,6 +89,10 @@ onMounted(() => {
       isvisible.value = visible;
     },
   });
+});
+
+onBeforeUnmount(() => {
+  unobserve(target);
 });
 </script>
 ```
