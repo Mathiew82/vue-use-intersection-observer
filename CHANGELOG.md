@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.2
+
+- Add explicit return types to public methods
+
 ## 1.0.1
 
 - Improve package metadata (keywords and documentation)
