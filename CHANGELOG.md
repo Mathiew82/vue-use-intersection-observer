@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.13
+
+- Optimize the how-it-works image
+
 ## 1.0.12
 
 - Remove github buttons from README
