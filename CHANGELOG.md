@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.14
+
+- Improve the display of default values in tables within the Readme file
+
 ## 1.0.13
 
 - Optimize the how-it-works image
