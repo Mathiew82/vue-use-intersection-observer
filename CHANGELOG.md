@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.11
+
+- Improve README headers and added License section
+
 ## 1.0.10
 
 - Add visual explanation of how the plugin works
