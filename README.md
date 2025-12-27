@@ -16,14 +16,14 @@
 
 Simple and lightweight visibility observer for **vue 3**, built on top of `IntersectionObserver`.
 
-## ✨ Features
+## 📒 Features
 
 - Vue 3 plugin
 - Composable API
 - Uses native `IntersectionObserver`
 - Supports offsets and reactivity
 - One global observer (better performance)
-- Fully written in typescript
+- Fully written in Typescript
 
 &nbsp;
 
@@ -37,7 +37,7 @@ npm i vue-use-intersection-observer
 
 ## 🚀 How to use
 
-### 🔌 Plugin setup
+### Plugin setup
 
 main.ts
 
@@ -51,7 +51,7 @@ app.use(VisibilityPlugin);
 app.mount('#app');
 ```
 
-### 🧩 Usage (example)
+### Usage (example)
 
 In a component
 
@@ -100,7 +100,7 @@ onBeforeUnmount(() => {
 </script>
 ```
 
-### 🛠 API
+### API
 
 #### `useIntersectionObserver()`
 
@@ -144,7 +144,7 @@ Stop observing a previously registered element.
 
 &nbsp;
 
-## ▶️ Demo
+## 👓 Demo
 
 ![Demo](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/demo.gif)
 
