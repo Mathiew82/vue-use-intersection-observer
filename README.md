@@ -21,7 +21,7 @@ Simple and lightweight visibility observer for **vue 3**, built on top of `Inter
 - Uses native `IntersectionObserver`
 - Supports offsets and reactivity
 - One global observer (better performance)
-- Fully written in Typescript
+- Fully written in TypeScript
 
 &nbsp;
 
@@ -126,9 +126,9 @@ Start observing an element.
 | Name      | Type            | Description                      | Required | Default |
 | --------- | --------------- | -------------------------------- | -------- | ------- |
 | callback  | function        | Called when visibility changes   | true     | —       |
-| offset    | number          | Trigger before entering viewport | false    | 0       |
-| threshold | number or array | Intersection threshold           | false    | 0       |
-| once      | boolean         | Trigger only the first time      | false    | true    |
+| offset    | number          | Trigger before entering viewport | false    | `0`     |
+| threshold | number or array | Intersection threshold           | false    | `0`     |
+| once      | boolean         | Trigger only the first time      | false    | `true`  |
 
 ---
 
