@@ -16,7 +16,7 @@
 
 Simple and lightweight visibility observer for **vue 3**, built on top of `IntersectionObserver`.
 
-## 📒 Features
+## Features
 
 - Vue 3 plugin
 - Composable API
@@ -27,7 +27,7 @@ Simple and lightweight visibility observer for **vue 3**, built on top of `Inter
 
 &nbsp;
 
-## 📦 Installation
+## Installation
 
 ```bash
 npm i vue-use-intersection-observer
@@ -35,7 +35,7 @@ npm i vue-use-intersection-observer
 
 &nbsp;
 
-## 🚀 How to use
+## How to use
 
 ### Plugin setup
 
@@ -153,6 +153,8 @@ Stop observing a previously registered element.
 ## How it works
 
 ![How it works](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/how-it-works.png)
+
+&nbsp;
 
 ## License
 
