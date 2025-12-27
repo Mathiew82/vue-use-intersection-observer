@@ -9,8 +9,6 @@
 [![npm](https://img.shields.io/npm/v/vue-use-intersection-observer.svg)](https://www.npmjs.com/package/vue-use-intersection-observer)
 [![npm](https://img.shields.io/npm/dt/vue-use-intersection-observer.svg)](https://www.npmjs.com/package/vue-use-intersection-observer)
 [![License](https://img.shields.io/crates/l/rnr.svg)](https://github.com/Mathiew82/vue-use-intersection-observer/blob/master/LICENSE)
-![GitHub stars](https://img.shields.io/github/stars/Mathiew82/vue-use-intersection-observer)
-![GitHub forks](https://img.shields.io/github/forks/Mathiew82/vue-use-intersection-observer)
 
 </div>
 
