@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.12
+
+- Remove github buttons from README
+
 ## 1.0.11
 
 - Improve README headers and added License section
