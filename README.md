@@ -148,8 +148,6 @@ Stop observing a previously registered element.
 
 ![Demo](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/demo.gif)
 
-![Demo](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/demo2.gif)
-
 &nbsp;
 
 ## 🧠 How it works
