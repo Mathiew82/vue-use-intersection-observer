@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.16
+
+- Improve README, Update logo styling and colors and add new keywords
+
 ## 1.0.15
 
 - Update logo styling and colors
