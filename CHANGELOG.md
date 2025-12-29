@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.0.15
+
+- Update logo styling and colors
+
 ## 1.0.14
 
 - Improve the display of default values in tables within the Readme file
