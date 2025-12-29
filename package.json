@@ -5,13 +5,14 @@
   "keywords": [
     "vue",
     "vue3",
-    "vue-composable",
-    "intersection-observer",
-    "visibility",
-    "in-view",
+    "composable",
+    "intersection",
+    "observer",
+    "lazy load",
+    "inview",
     "viewport",
     "scroll",
-    "observer"
+    "useIntersectionObserver"
   ],
   "type": "module",
   "main": "./dist/vue-use-intersection-observer.umd.js",
