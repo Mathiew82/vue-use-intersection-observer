@@ -1,5 +1,12 @@
 # Changelog
 
+## 2.0.0
+
+### Breaking changes
+
+- Simplify `v-visible` directive API to accept only a callback function.
+  For advanced options, use the composable API.
+
 ## 1.0.16
 
 - Improve README, Update logo styling and colors and add new keywords
