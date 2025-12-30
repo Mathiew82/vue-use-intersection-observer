@@ -12,6 +12,7 @@ export type VisibilityCallback = (
 interface ObservedElement {
   callback: VisibilityCallback;
   once: boolean;
+  lastVisible?: boolean;
 }
 
 type ObserverKey = string;
@@ -52,11 +53,13 @@ export class VisibilityObserver {
             if (!data) continue;
 
             const isVisible = entry.isIntersecting;
-            if (!isVisible) continue;
+
+            if (data.lastVisible === isVisible) continue;
+            data.lastVisible = isVisible;
 
             data.callback(isVisible, entry);
 
-            if (data.once) {
+            if (isVisible && data.once) {
               this.unobserve(entry.target);
             }
           }
@@ -85,6 +88,7 @@ export class VisibilityObserver {
     bucket.elements.set(element, {
       callback,
       once: options.once ?? true,
+      lastVisible: undefined,
     });
 
     bucket.observer.observe(element);
