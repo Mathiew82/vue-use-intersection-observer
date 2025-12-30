@@ -142,6 +142,7 @@ const onVisible = (visible: boolean) => {
 > The `v-visible` directive is intended for simple use cases.
 > It only accepts a callback function and always reports the visibility state.
 > For advanced configuration (once, offset, threshold), use the composable API.
+> By default always tracks visibility changes (`once` is implicitly set to `false`).
 >
 > ---
 
