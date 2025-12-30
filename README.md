@@ -16,12 +16,12 @@ Simple and lightweight visibility observer for **vue 3**, built on top of `Inter
 
 ## Features
 
-- Vue 3 plugin
-- Composable API
-- Uses native `IntersectionObserver`
-- Supports offsets and reactivity
-- One global observer (better performance)
-- Fully written in TypeScript
+- 🧩 Vue 3 plugin
+- 🔌 Composable API
+- 🔍 Uses native `IntersectionObserver`
+- ⚡ Supports offsets and reactivity
+- 🌐 One global observer (better performance)
+- 🛡️ Fully written in TypeScript
 
 &nbsp;
 
@@ -49,9 +49,9 @@ app.use(VisibilityPlugin);
 app.mount('#app');
 ```
 
-### Usage (example)
+### Usage (examples)
 
-In a component
+**# Example with composable**
 
 ```vue
 <template>
@@ -65,9 +65,9 @@ In a component
       borderRadius: '50%',
       backgroundColor: isvisible ? 'green' : 'red',
     }"
-  />
+  ></div>
 
-  <div style="height: 150vh" />
+  <div style="height: 150vh"></div>
 
   <div ref="target" style="width: 200px; height: 200px; background: gray">
     Observed Element
@@ -98,6 +98,55 @@ onBeforeUnmount(() => {
 </script>
 ```
 
+---
+
+**# Example with directive**
+
+```vue
+<template>
+  <div
+    :style="{
+      position: 'fixed',
+      top: '20px',
+      right: '20px',
+      width: '40px',
+      height: '40px',
+      borderRadius: '50%',
+      backgroundColor: isvisible ? 'green' : 'red',
+    }"
+  ></div>
+
+  <div style="height: 150vh"></div>
+
+  <div
+    v-visible="onVisible"
+    style="width: 200px; height: 200px; background: gray"
+  >
+    Observed Element
+  </div>
+</template>
+
+<script setup lang="ts">
+import { ref } from 'vue';
+
+const isvisible = ref<boolean>(false);
+
+const onVisible = (visible: boolean) => {
+  isvisible.value = visible;
+};
+</script>
+```
+
+> ---
+>
+> The `v-visible` directive is intended for simple use cases.
+> It only accepts a callback function and always reports the visibility state.
+> For advanced configuration (once, offset, threshold), use the composable API.
+>
+> ---
+
+<p></p>
+
 ### API
 
 #### `useIntersectionObserver()`
@@ -120,6 +169,8 @@ Start observing an element.
 | ------- | ------- | ---------------------- | -------- | ------- |
 | target  | ref     | Element ref to observe | true     | —       |
 | options | Options | Observer configuration | true     | —       |
+
+<p></p>
 
 **Options:**
 
