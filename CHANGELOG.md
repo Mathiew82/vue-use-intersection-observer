@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.1
+
+- Fix visibility detection when elements leave the viewport
+
 ## 2.0.0
 
 ### Breaking changes
