@@ -192,12 +192,6 @@ Stop observing a previously registered element.
 
 &nbsp;
 
-## How it works
-
-![How it works](https://raw.githubusercontent.com/Mathiew82/vue-use-intersection-observer/main/how-it-works.png)
-
-&nbsp;
-
 ## License
 
 MIT License - see [LICENSE](https://github.com/Mathiew82/vue-use-intersection-observer/blob/main/LICENSE) for details.
