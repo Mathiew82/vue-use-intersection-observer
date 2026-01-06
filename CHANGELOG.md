@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.0.3
+
+- Remove how it works image and simplify README header
+
 ## 2.0.2
 
 - Remove logo and simplify README header
